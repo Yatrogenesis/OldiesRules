@@ -1,0 +1,11 @@
+[package]
+name = "oldies-core"
+version.workspace = true
+edition.workspace = true
+description = "Core types for legacy simulator revival"
+
+[dependencies]
+serde = { workspace = true }
+thiserror = { workspace = true }
+ndarray = { workspace = true }
+num-complex = { workspace = true }

@@ -1,0 +1,11 @@
+[package]
+name = "auto-rs"
+version.workspace = true
+edition.workspace = true
+description = "AUTO continuation algorithm revival in Rust"
+
+[dependencies]
+oldies-core = { workspace = true }
+thiserror = { workspace = true }
+ndarray = { workspace = true }
+nalgebra = { workspace = true }

@@ -1,0 +1,17 @@
+[package]
+name = "oldies-cli"
+version.workspace = true
+edition.workspace = true
+description = "CLI for OldiesRules legacy simulator revival"
+
+[[bin]]
+name = "oldies"
+path = "src/main.rs"
+
+[dependencies]
+oldies-core = { workspace = true }
+genesis-rs = { workspace = true }
+xppaut-rs = { workspace = true }
+clap = { workspace = true }
+colored = { workspace = true }
+anyhow = { workspace = true }

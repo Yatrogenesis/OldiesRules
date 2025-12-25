@@ -1,0 +1,13 @@
+[package]
+name = "genesis-rs"
+version.workspace = true
+edition.workspace = true
+description = "GENESIS simulator revival in Rust"
+
+[dependencies]
+oldies-core = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+ndarray = { workspace = true }
+pest = { workspace = true }
+pest_derive = { workspace = true }

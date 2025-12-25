@@ -1,0 +1,61 @@
+[workspace]
+resolver = "2"
+members = [
+    # Revival of legacy simulators
+    "crates/genesis-rs",      # GENESIS simulator revival
+    "crates/xppaut-rs",       # XPPAUT bifurcation analysis
+    "crates/auto-rs",         # AUTO continuation (FORTRAN)
+    "crates/modeldb-rs",      # ModelDB model importer
+
+    # Common infrastructure
+    "crates/oldies-core",     # Shared types and utilities
+    "crates/oldies-cli",      # Command-line interface
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = ["Francisco Molina <pako.molina@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Yatrogenesis/OldiesRules"
+keywords = ["neuroscience", "simulation", "legacy", "genesis", "xppaut"]
+categories = ["science", "simulation", "mathematics"]
+
+[workspace.dependencies]
+# Core
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Numerical
+ndarray = "0.16"
+nalgebra = "0.33"
+num-traits = "0.2"
+num-complex = "0.4"
+
+# ODE solvers
+ode_solvers = "0.5"
+
+# Parallel
+rayon = "1.10"
+
+# Parsing (for legacy formats)
+pest = "2.7"
+pest_derive = "2.7"
+nom = "7.1"
+
+# CLI
+clap = { version = "4.5", features = ["derive"] }
+colored = "2.1"
+
+# Internal
+oldies-core = { path = "crates/oldies-core" }
+genesis-rs = { path = "crates/genesis-rs" }
+xppaut-rs = { path = "crates/xppaut-rs" }
+auto-rs = { path = "crates/auto-rs" }
+modeldb-rs = { path = "crates/modeldb-rs" }
+
+[profile.release]
+opt-level = 3
+lto = "thin"
