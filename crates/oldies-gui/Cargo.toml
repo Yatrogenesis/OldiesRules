@@ -1,11 +1,11 @@
 [package]
-name = "oldies-cli"
+name = "oldies-gui"
 version.workspace = true
 edition.workspace = true
-description = "CLI for OldiesRules legacy simulator revival"
+description = "Modern GUI for OldiesRules legacy simulator revival"
 
 [[bin]]
-name = "oldies"
+name = "oldies-gui"
 path = "src/main.rs"
 
 [dependencies]
@@ -19,10 +19,15 @@ neuron-rs = { workspace = true }
 copasi-rs = { workspace = true }
 nest-rs = { workspace = true }
 
-# CLI
-clap = { workspace = true }
-colored = { workspace = true }
+# GUI
+eframe = { workspace = true }
+egui = { workspace = true }
+egui_extras = { workspace = true }
+egui_plot = { workspace = true }
+rfd = { workspace = true }
+
+# Core dependencies
+serde = { workspace = true }
+serde_json = { workspace = true }
 anyhow = { workspace = true }
-indicatif = { workspace = true }
-dialoguer = { workspace = true }
-console = { workspace = true }
+ndarray = { workspace = true }

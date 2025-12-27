@@ -14,6 +14,7 @@ members = [
     # Common infrastructure
     "crates/oldies-core",     # Shared types and utilities
     "crates/oldies-cli",      # Command-line interface
+    "crates/oldies-gui",      # Graphical interface
 ]
 
 [workspace.package]
@@ -52,6 +53,16 @@ nom = "7.1"
 # CLI
 clap = { version = "4.5", features = ["derive"] }
 colored = "2.1"
+indicatif = "0.17"
+dialoguer = { version = "0.11", features = ["fuzzy-select"] }
+console = "0.15"
+
+# GUI
+eframe = "0.29"
+egui = "0.29"
+egui_extras = { version = "0.29", features = ["syntect"] }
+egui_plot = "0.29"
+rfd = "0.15"
 
 # Internal
 oldies-core = { path = "crates/oldies-core" }
