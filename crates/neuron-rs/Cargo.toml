@@ -1,0 +1,17 @@
+[package]
+name = "neuron-rs"
+version.workspace = true
+edition.workspace = true
+description = "NEURON simulator revival - HOC and NMODL parsers"
+keywords = ["neuroscience", "neuron", "hoc", "nmodl", "simulation"]
+categories = ["science", "simulation", "parsing"]
+
+[dependencies]
+oldies-core.workspace = true
+pest.workspace = true
+pest_derive.workspace = true
+serde.workspace = true
+ndarray.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]

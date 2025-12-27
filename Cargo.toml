@@ -6,6 +6,10 @@ members = [
     "crates/xppaut-rs",       # XPPAUT bifurcation analysis
     "crates/auto-rs",         # AUTO continuation (FORTRAN)
     "crates/modeldb-rs",      # ModelDB model importer
+    "crates/neuron-rs",       # NEURON simulator (HOC/NMODL)
+    "crates/copasi-rs",       # COPASI/SBML biochemical networks
+    "crates/brian-rs",        # Brian spiking network simulator
+    "crates/nest-rs",         # NEST simulator interface
 
     # Common infrastructure
     "crates/oldies-core",     # Shared types and utilities
@@ -29,8 +33,8 @@ thiserror = "1.0"
 anyhow = "1.0"
 
 # Numerical
-ndarray = "0.16"
-nalgebra = "0.33"
+ndarray = { version = "0.16", features = ["serde"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
 num-traits = "0.2"
 num-complex = "0.4"
 
@@ -55,6 +59,10 @@ genesis-rs = { path = "crates/genesis-rs" }
 xppaut-rs = { path = "crates/xppaut-rs" }
 auto-rs = { path = "crates/auto-rs" }
 modeldb-rs = { path = "crates/modeldb-rs" }
+neuron-rs = { path = "crates/neuron-rs" }
+copasi-rs = { path = "crates/copasi-rs" }
+brian-rs = { path = "crates/brian-rs" }
+nest-rs = { path = "crates/nest-rs" }
 
 [profile.release]
 opt-level = 3

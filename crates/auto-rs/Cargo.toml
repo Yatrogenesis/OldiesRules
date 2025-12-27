@@ -9,3 +9,6 @@ oldies-core = { workspace = true }
 thiserror = { workspace = true }
 ndarray = { workspace = true }
 nalgebra = { workspace = true }
+serde = { workspace = true }
+
+[dev-dependencies]

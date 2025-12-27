@@ -246,7 +246,7 @@ pub mod objects {
     use super::*;
 
     /// Create a standard compartment
-    pub fn compartment(sim: &mut GenesisSimulation, path: &str) -> &mut Element {
+    pub fn compartment<'a>(sim: &'a mut GenesisSimulation, path: &str) -> &'a mut Element {
         let elem = sim.create(path, ElementType::Compartment);
         elem.set_param("Rm", 1e9);      // Membrane resistance (ohms)
         elem.set_param("Cm", 1e-11);    // Membrane capacitance (F)
@@ -258,7 +258,7 @@ pub mod objects {
     }
 
     /// Create HH sodium channel
-    pub fn na_channel(sim: &mut GenesisSimulation, path: &str) -> &mut Element {
+    pub fn na_channel<'a>(sim: &'a mut GenesisSimulation, path: &str) -> &'a mut Element {
         let elem = sim.create(path, ElementType::NaChannel);
         elem.set_param("Gbar", 0.12);   // Max conductance (S/cm^2)
         elem.set_param("Ek", 0.045);    // Reversal potential (V)
@@ -266,7 +266,7 @@ pub mod objects {
     }
 
     /// Create HH potassium channel
-    pub fn k_channel(sim: &mut GenesisSimulation, path: &str) -> &mut Element {
+    pub fn k_channel<'a>(sim: &'a mut GenesisSimulation, path: &str) -> &'a mut Element {
         let elem = sim.create(path, ElementType::KChannel);
         elem.set_param("Gbar", 0.036);  // Max conductance (S/cm^2)
         elem.set_param("Ek", -0.082);   // Reversal potential (V)
