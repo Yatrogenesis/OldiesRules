@@ -1,5 +1,6 @@
 # 🎸 OldiesRules
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18071019.svg)](https://doi.org/10.5281/zenodo.18071019)
 [![Rust](https://img.shields.io/badge/Rust-1.75%2B-orange?logo=rust)](https://www.rust-lang.org/)
 [![License](https://img.shields.io/badge/License-MIT%2FApache--2.0-blue)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Yatrogenesis/OldiesRules?style=social)](https://github.com/Yatrogenesis/OldiesRules)
