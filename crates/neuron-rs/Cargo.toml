@@ -2,9 +2,12 @@
 name = "neuron-rs"
 version.workspace = true
 edition.workspace = true
-description = "NEURON simulator revival - HOC and NMODL parsers"
-keywords = ["neuroscience", "neuron", "hoc", "nmodl", "simulation"]
-categories = ["science", "simulation", "parsing"]
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "NEURON simulator revival in Rust - HOC and NMODL parsers for cable equation modeling"
 
 [dependencies]
 oldies-core.workspace = true

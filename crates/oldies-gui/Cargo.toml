@@ -2,7 +2,12 @@
 name = "oldies-gui"
 version.workspace = true
 edition.workspace = true
-description = "Modern GUI for OldiesRules legacy simulator revival"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Modern GUI for OldiesRules - Real-time visualization with egui"
 
 [[bin]]
 name = "oldies-gui"

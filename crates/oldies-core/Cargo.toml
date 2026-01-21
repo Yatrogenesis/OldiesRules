@@ -2,7 +2,12 @@
 name = "oldies-core"
 version.workspace = true
 edition.workspace = true
-description = "Core types for legacy simulator revival"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Core types for legacy simulator revival - ODE systems, time series, ion channels"
 
 [dependencies]
 serde = { workspace = true }

@@ -2,7 +2,12 @@
 name = "modeldb-rs"
 version.workspace = true
 edition.workspace = true
-description = "ModelDB model importer for legacy neural models"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "ModelDB model importer for legacy neural models in Rust"
 
 [dependencies]
 oldies-core = { workspace = true }

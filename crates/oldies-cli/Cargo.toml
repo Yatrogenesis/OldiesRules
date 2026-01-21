@@ -2,7 +2,12 @@
 name = "oldies-cli"
 version.workspace = true
 edition.workspace = true
-description = "CLI for OldiesRules legacy simulator revival"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Interactive CLI for OldiesRules - Run legacy simulators with modern UX"
 
 [[bin]]
 name = "oldies"

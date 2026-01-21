@@ -2,9 +2,12 @@
 name = "copasi-rs"
 version.workspace = true
 edition.workspace = true
-description = "COPASI/SBML biochemical network simulator revival"
-keywords = ["copasi", "sbml", "biochemistry", "simulation", "systems-biology"]
-categories = ["science", "simulation", "parsing"]
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "COPASI/SBML biochemical network simulator revival in Rust"
 
 [dependencies]
 oldies-core.workspace = true

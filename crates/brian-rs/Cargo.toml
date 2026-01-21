@@ -2,9 +2,12 @@
 name = "brian-rs"
 version.workspace = true
 edition.workspace = true
-description = "Brian spiking neural network simulator revival"
-keywords = ["neuroscience", "brian", "spiking", "neural", "simulation"]
-categories = ["science", "simulation"]
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "Brian spiking neural network simulator revival in Rust"
 
 [dependencies]
 oldies-core.workspace = true

@@ -2,7 +2,12 @@
 name = "genesis-rs"
 version.workspace = true
 edition.workspace = true
-description = "GENESIS simulator revival in Rust"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "GENESIS neural simulator revival in Rust - Compartmental modeling from 1988"
 
 [dependencies]
 oldies-core = { workspace = true }

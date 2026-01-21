@@ -2,9 +2,12 @@
 name = "nest-rs"
 version.workspace = true
 edition.workspace = true
-description = "NEST simulator revival - large-scale spiking networks"
-keywords = ["neuroscience", "nest", "spiking", "neural", "simulation"]
-categories = ["science", "simulation"]
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "NEST simulator revival in Rust - Large-scale spiking neural networks"
 
 [dependencies]
 oldies-core.workspace = true

@@ -2,7 +2,12 @@
 name = "xppaut-rs"
 version.workspace = true
 edition.workspace = true
-description = "XPPAUT bifurcation analysis revival in Rust"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "XPPAUT bifurcation analysis revival in Rust - Hopf detection, phase portraits"
 
 [dependencies]
 oldies-core = { workspace = true }

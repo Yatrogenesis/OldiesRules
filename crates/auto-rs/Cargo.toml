@@ -2,7 +2,12 @@
 name = "auto-rs"
 version.workspace = true
 edition.workspace = true
-description = "AUTO continuation algorithm revival in Rust"
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
+categories.workspace = true
+description = "AUTO continuation algorithm revival in Rust - Numerical bifurcation analysis"
 
 [dependencies]
 oldies-core = { workspace = true }

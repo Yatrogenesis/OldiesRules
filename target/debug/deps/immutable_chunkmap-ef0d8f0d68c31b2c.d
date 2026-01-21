@@ -1,0 +1,11 @@
+C:\Users\pakom\OldiesRules\target\debug\deps\immutable_chunkmap-ef0d8f0d68c31b2c.d: C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\lib.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\avl.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\chunk.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\map.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\set.rs
+
+C:\Users\pakom\OldiesRules\target\debug\deps\libimmutable_chunkmap-ef0d8f0d68c31b2c.rlib: C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\lib.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\avl.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\chunk.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\map.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\set.rs
+
+C:\Users\pakom\OldiesRules\target\debug\deps\libimmutable_chunkmap-ef0d8f0d68c31b2c.rmeta: C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\lib.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\avl.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\chunk.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\map.rs C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\set.rs
+
+C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\lib.rs:
+C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\avl.rs:
+C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\chunk.rs:
+C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\map.rs:
+C:\Users\pakom\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\immutable-chunkmap-2.1.2\src\set.rs:
