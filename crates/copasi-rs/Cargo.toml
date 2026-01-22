@@ -1,5 +1,5 @@
 [package]
-name = "copasi-rs"
+name = "oldies-copasi"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

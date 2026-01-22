@@ -1,5 +1,5 @@
 [package]
-name = "auto-rs"
+name = "oldies-auto"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

@@ -1,5 +1,5 @@
 [package]
-name = "brian-rs"
+name = "oldies-brian"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

@@ -1,5 +1,5 @@
 [package]
-name = "xppaut-rs"
+name = "oldies-xppaut"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

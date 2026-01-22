@@ -66,14 +66,14 @@ rfd = "0.15"
 
 # Internal
 oldies-core = { version = "0.1.0", path = "crates/oldies-core" }
-genesis-rs = { version = "0.1.0", path = "crates/genesis-rs" }
-xppaut-rs = { version = "0.1.0", path = "crates/xppaut-rs" }
-auto-rs = { version = "0.1.0", path = "crates/auto-rs" }
-modeldb-rs = { version = "0.1.0", path = "crates/modeldb-rs" }
-neuron-rs = { version = "0.1.0", path = "crates/neuron-rs" }
-copasi-rs = { version = "0.1.0", path = "crates/copasi-rs" }
-brian-rs = { version = "0.1.0", path = "crates/brian-rs" }
-nest-rs = { version = "0.1.0", path = "crates/nest-rs" }
+oldies-genesis = { version = "0.1.0", path = "crates/genesis-rs" }
+oldies-xppaut = { version = "0.1.0", path = "crates/xppaut-rs" }
+oldies-auto = { version = "0.1.0", path = "crates/auto-rs" }
+oldies-modeldb = { version = "0.1.0", path = "crates/modeldb-rs" }
+oldies-neuron = { version = "0.1.0", path = "crates/neuron-rs" }
+oldies-copasi = { version = "0.1.0", path = "crates/copasi-rs" }
+oldies-brian = { version = "0.1.0", path = "crates/brian-rs" }
+oldies-nest = { version = "0.1.0", path = "crates/nest-rs" }
 
 [profile.release]
 opt-level = 3

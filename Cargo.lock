@@ -514,17 +514,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "auto-rs"
-version = "0.1.0"
-dependencies = [
- "nalgebra",
- "ndarray",
- "oldies-core",
- "serde",
- "thiserror 1.0.69",
-]
-
-[[package]]
 name = "autocfg"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -631,19 +620,6 @@ dependencies = [
  "futures-io",
  "futures-lite",
  "piper",
-]
-
-[[package]]
-name = "brian-rs"
-version = "0.1.0"
-dependencies = [
- "ndarray",
- "num-traits",
- "oldies-core",
- "rayon",
- "serde",
- "serde_json",
- "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -916,18 +892,6 @@ dependencies = [
  "once_cell",
  "unicode-width 0.2.2",
  "windows-sys 0.59.0",
-]
-
-[[package]]
-name = "copasi-rs"
-version = "0.1.0"
-dependencies = [
- "ndarray",
- "num-traits",
- "oldies-core",
- "serde",
- "serde_json",
- "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -1588,18 +1552,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "genesis-rs"
-version = "0.1.0"
-dependencies = [
- "ndarray",
- "oldies-core",
- "pest",
- "pest_derive",
- "serde",
- "thiserror 1.0.69",
-]
-
-[[package]]
 name = "gethostname"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2222,17 +2174,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "modeldb-rs"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "oldies-core",
- "serde",
- "serde_json",
- "thiserror 1.0.69",
-]
-
-[[package]]
 name = "moxcms"
 version = "0.7.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2344,31 +2285,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ee6cda3051665f1fb8d9e08fc35c96d5a244fb1be711a03b71118828afc9a873"
 dependencies = [
  "jni-sys",
-]
-
-[[package]]
-name = "nest-rs"
-version = "0.1.0"
-dependencies = [
- "ndarray",
- "num-traits",
- "oldies-core",
- "rayon",
- "serde",
- "serde_json",
- "thiserror 1.0.69",
-]
-
-[[package]]
-name = "neuron-rs"
-version = "0.1.0"
-dependencies = [
- "ndarray",
- "oldies-core",
- "pest",
- "pest_derive",
- "serde",
- "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -2768,23 +2684,59 @@ dependencies = [
 ]
 
 [[package]]
+name = "oldies-auto"
+version = "0.1.0"
+dependencies = [
+ "nalgebra",
+ "ndarray",
+ "oldies-core",
+ "serde",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "oldies-brian"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "num-traits",
+ "oldies-core",
+ "rayon",
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
+]
+
+[[package]]
 name = "oldies-cli"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "auto-rs",
- "brian-rs",
  "clap",
  "colored",
  "console",
- "copasi-rs",
  "dialoguer",
- "genesis-rs",
  "indicatif",
- "nest-rs",
- "neuron-rs",
+ "oldies-auto",
+ "oldies-brian",
+ "oldies-copasi",
  "oldies-core",
- "xppaut-rs",
+ "oldies-genesis",
+ "oldies-nest",
+ "oldies-neuron",
+ "oldies-xppaut",
+]
+
+[[package]]
+name = "oldies-copasi"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "num-traits",
+ "oldies-core",
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -2798,26 +2750,86 @@ dependencies = [
 ]
 
 [[package]]
+name = "oldies-genesis"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "oldies-core",
+ "pest",
+ "pest_derive",
+ "serde",
+ "thiserror 1.0.69",
+]
+
+[[package]]
 name = "oldies-gui"
 version = "0.1.0"
 dependencies = [
  "anyhow",
- "auto-rs",
- "brian-rs",
- "copasi-rs",
  "eframe",
  "egui",
  "egui_extras",
  "egui_plot",
- "genesis-rs",
  "ndarray",
- "nest-rs",
- "neuron-rs",
+ "oldies-auto",
+ "oldies-brian",
+ "oldies-copasi",
  "oldies-core",
+ "oldies-genesis",
+ "oldies-nest",
+ "oldies-neuron",
+ "oldies-xppaut",
  "rfd",
  "serde",
  "serde_json",
- "xppaut-rs",
+]
+
+[[package]]
+name = "oldies-modeldb"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "oldies-core",
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "oldies-nest"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "num-traits",
+ "oldies-core",
+ "rayon",
+ "serde",
+ "serde_json",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "oldies-neuron"
+version = "0.1.0"
+dependencies = [
+ "ndarray",
+ "oldies-core",
+ "pest",
+ "pest_derive",
+ "serde",
+ "thiserror 1.0.69",
+]
+
+[[package]]
+name = "oldies-xppaut"
+version = "0.1.0"
+dependencies = [
+ "nalgebra",
+ "ndarray",
+ "num-complex",
+ "oldies-core",
+ "serde",
+ "thiserror 1.0.69",
 ]
 
 [[package]]
@@ -4872,18 +4884,6 @@ name = "xml-rs"
 version = "0.8.28"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3ae8337f8a065cfc972643663ea4279e04e7256de865aa66fe25cec5fb912d3f"
-
-[[package]]
-name = "xppaut-rs"
-version = "0.1.0"
-dependencies = [
- "nalgebra",
- "ndarray",
- "num-complex",
- "oldies-core",
- "serde",
- "thiserror 1.0.69",
-]
 
 [[package]]
 name = "yaml-rust"

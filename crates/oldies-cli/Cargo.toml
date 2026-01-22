@@ -16,13 +16,13 @@ path = "src/main.rs"
 [dependencies]
 # Core crates
 oldies-core = { workspace = true }
-genesis-rs = { workspace = true }
-xppaut-rs = { workspace = true }
-auto-rs = { workspace = true }
-brian-rs = { workspace = true }
-neuron-rs = { workspace = true }
-copasi-rs = { workspace = true }
-nest-rs = { workspace = true }
+oldies-genesis = { workspace = true }
+oldies-xppaut = { workspace = true }
+oldies-auto = { workspace = true }
+oldies-brian = { workspace = true }
+oldies-neuron = { workspace = true }
+oldies-copasi = { workspace = true }
+oldies-nest = { workspace = true }
 
 # CLI
 clap = { workspace = true }

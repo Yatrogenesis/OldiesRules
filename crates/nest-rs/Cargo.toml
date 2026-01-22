@@ -1,5 +1,5 @@
 [package]
-name = "nest-rs"
+name = "oldies-nest"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true

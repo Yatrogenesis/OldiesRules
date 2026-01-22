@@ -1,5 +1,5 @@
 [package]
-name = "neuron-rs"
+name = "oldies-neuron"
 version.workspace = true
 edition.workspace = true
 authors.workspace = true
